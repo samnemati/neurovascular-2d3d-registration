@@ -1,0 +1,6 @@
+{
+  "spacing_mm": 1.0,
+  "fov_mm": 180.0,
+  "max_centerline_points": 300,
+  "n_cases": 25
+}

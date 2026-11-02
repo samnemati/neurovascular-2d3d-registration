@@ -1,0 +1,9 @@
+# The CT angiography data is not redistributed here; see PROVENANCE.md.
+data/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+outputs/run_registration*.log
+outputs/run_realism.log

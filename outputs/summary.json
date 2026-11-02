@@ -1,0 +1,112 @@
+{
+  "n_registrations": 720,
+  "n_cases": 10,
+  "success_threshold_mm": 2.0,
+  "by_configuration": {
+    "1plane_adam": {
+      "success_rate": 0.75,
+      "median_mtre_mm": 1.278,
+      "median_inplane_mm": 0.576,
+      "median_depth_mm": 1.269,
+      "median_overlay_mm": 0.703,
+      "median_rot_err_deg": 0.909,
+      "mean_renders": 240,
+      "mean_seconds": 2.08
+    },
+    "1plane_powell": {
+      "success_rate": 0.744,
+      "median_mtre_mm": 1.298,
+      "median_inplane_mm": 0.571,
+      "median_depth_mm": 1.239,
+      "median_overlay_mm": 0.703,
+      "median_rot_err_deg": 0.851,
+      "mean_renders": 715,
+      "mean_seconds": 3.53
+    },
+    "2plane_adam": {
+      "success_rate": 0.911,
+      "median_mtre_mm": 0.375,
+      "median_inplane_mm": 0.322,
+      "median_depth_mm": 0.247,
+      "median_overlay_mm": 0.482,
+      "median_rot_err_deg": 0.442,
+      "mean_renders": 480,
+      "mean_seconds": 4.08
+    },
+    "2plane_powell": {
+      "success_rate": 0.917,
+      "median_mtre_mm": 0.377,
+      "median_inplane_mm": 0.33,
+      "median_depth_mm": 0.236,
+      "median_overlay_mm": 0.496,
+      "median_rot_err_deg": 0.434,
+      "mean_renders": 1417,
+      "mean_seconds": 6.82
+    }
+  },
+  "overlay_example": {
+    "case": "topcow_ct_001",
+    "initial_mtre_mm": 9.648,
+    "single_plane": {
+      "mtre_mm": 1.264,
+      "inplane_mm": 0.212,
+      "depth_mm": 1.261
+    },
+    "two_planes": {
+      "mtre_mm": 0.19,
+      "inplane_mm": 0.173,
+      "depth_mm": 0.098
+    }
+  },
+  "success_by_initial_offset": {
+    "1plane_adam": {
+      "2.5mm": 0.9,
+      "5mm": 0.867,
+      "10mm": 0.933,
+      "20mm": 0.767,
+      "30mm": 0.633,
+      "40mm": 0.4
+    },
+    "1plane_powell": {
+      "2.5mm": 0.9,
+      "5mm": 0.9,
+      "10mm": 0.833,
+      "20mm": 0.767,
+      "30mm": 0.533,
+      "40mm": 0.533
+    },
+    "2plane_adam": {
+      "2.5mm": 1.0,
+      "5mm": 1.0,
+      "10mm": 0.933,
+      "20mm": 1.0,
+      "30mm": 0.833,
+      "40mm": 0.7
+    },
+    "2plane_powell": {
+      "2.5mm": 1.0,
+      "5mm": 1.0,
+      "10mm": 1.0,
+      "20mm": 0.9,
+      "30mm": 0.8,
+      "40mm": 0.8
+    }
+  },
+  "target_realism": {
+    "clean": {
+      "median_mtre_mm": 0.065,
+      "success_rate": 0.967,
+      "median_overlay_mm": 0.092
+    },
+    "degraded": {
+      "median_mtre_mm": 0.368,
+      "success_rate": 0.933,
+      "median_overlay_mm": 0.474
+    },
+    "degraded_hard": {
+      "median_mtre_mm": 0.791,
+      "success_rate": 0.933,
+      "median_overlay_mm": 0.957
+    }
+  }
+}
